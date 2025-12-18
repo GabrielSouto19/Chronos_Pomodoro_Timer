@@ -8,11 +8,11 @@ export function App(){
   
   return <>
   <Container>
-    <Heading>Chronos</Heading>
+    <Heading>Logo</Heading>
   </Container>
   
   <Container>
-    <Heading>Chronos</Heading>
+    <Heading>Menu</Heading>
     
   </Container>
 
