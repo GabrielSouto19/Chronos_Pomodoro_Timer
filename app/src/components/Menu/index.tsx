@@ -1,4 +1,4 @@
-import { CogIcon, HistoryIcon, HomeIcon, SettingsIcon, SunIcon } from 'lucide-react'
+import {HistoryIcon, HomeIcon, SettingsIcon, SunIcon } from 'lucide-react'
 import styles from './styles.module.css'
 
 
