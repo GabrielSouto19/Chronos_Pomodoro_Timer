@@ -34,7 +34,9 @@ export function App(){
         <Input 
           type='text'
           id='task'
-          // labelText='task'
+          labelText='task'
+          placeholder='Digite sua task'
+          
         >task
         </Input>
       </div>
