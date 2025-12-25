@@ -12,7 +12,7 @@ type ButtonProps = {
 export function Button({icon, ...props}:ButtonProps){
     return <>
         <button className={styles.button}  {...props} >
-            {icon}
+            {icon} 
         </button  >
     </>
     

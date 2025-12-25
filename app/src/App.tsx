@@ -9,7 +9,7 @@ import { Button } from './components/Button'
 
 import './styles/theme.css'
 import './styles/global.css'
-import { PlayCircle, PlayCircleIcon } from 'lucide-react'
+import {  PlayCircleIcon } from 'lucide-react'
 
 export function App(){
   
