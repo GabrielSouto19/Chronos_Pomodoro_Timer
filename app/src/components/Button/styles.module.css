@@ -2,18 +2,6 @@
     /* color: white; */
     background-color: var(--primary);
     border: none;
-    width: 24rem;
-    border-radius: .8rem;
-    padding: .4rem;
-    margin: 3,2rem 0rem;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.button svg{
-    width: 3.2rem;
-}
-
-.button:hover{
-    filter: brightness(50%);
+    width: 16rem;
+    border-radius: .4rem;
 }
