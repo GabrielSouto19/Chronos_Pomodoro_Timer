@@ -7,6 +7,7 @@ type ButtonProps = {
 
 // interrogação representa que  o preencimetno é ocional
 } & React.ComponentProps<'button'>
+// fazendo um comentário somente para fazer o commit 
 
 
 
