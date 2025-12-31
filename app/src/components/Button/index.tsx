@@ -13,7 +13,7 @@ type ButtonProps = {
 
 export function Button({icon,color="green", ...props}:ButtonProps){
     return <>
-        <button className={`${styles.button} ${styles.color}`}  {...props} >
+        <button className={`${styles.button} ${styles[color]}`}  {...props} >
             {icon}
         </button  >
     </>

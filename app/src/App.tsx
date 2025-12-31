@@ -9,7 +9,7 @@ import { Button } from './components/Button'
 
 import './styles/theme.css'
 import './styles/global.css'
-import { PlayCircle, PlayCircleIcon } from 'lucide-react'
+import { PlayCircleIcon, StopCircleIcon } from 'lucide-react'
 
 export function App(){
   
@@ -57,6 +57,7 @@ export function App(){
       
       <div className="formRow">
         <Button icon={<PlayCircleIcon/>}>Enviar</Button>
+        <Button icon={<StopCircleIcon/>} color='red'>Enviar</Button>
       </div>
 
 
