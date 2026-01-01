@@ -21,14 +21,6 @@ export function Menu(){
             return nextTheme
         })
 
-        if (theme == "dark"){
-            setTheme("light")
-        }else{
-            setTheme("dark")
-
-        }
-
-        console.log(theme)
         
     }
 
