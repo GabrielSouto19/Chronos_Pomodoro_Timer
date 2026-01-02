@@ -1,4 +1,5 @@
-import {HistoryIcon, HomeIcon, SettingsIcon, SunIcon } from 'lucide-react'
+import {HistoryIcon, HomeIcon, SettingsIcon, SunIcon,MoonIcon, Moon } from 'lucide-react'
+
 import styles from './styles.module.css'
 import { useState,useEffect } from 'react'
 
@@ -31,6 +32,11 @@ export function Menu(){
         
     },[theme])
 
+    const nextThemeIcon = {
+        dark:<SunIcon/>,
+        light:<MoonIcon/>,
+    }
+
 
     return <nav className={styles.menu}>
         <h1>{theme}</h1>
@@ -46,8 +52,13 @@ export function Menu(){
             <SettingsIcon size={40}/>  
         </a>
         
-        <a href="#" className={styles.menuLink} aria-label='Mudar Tema' title='Mudar Tema' onClick={handleThemeChange} >
-            <SunIcon size={40}/>  
+        <a href="#" 
+        className={styles.menuLink} 
+        aria-label='Mudar Tema' 
+        title='Mudar Tema' 
+        onClick={handleThemeChange} >
+            {/* {theme == "dark"? <SunIcon size={40}/>: <MoonIcon/>} */}
+            {nextThemeIcon[theme]}
         </a>
     </nav>
 
