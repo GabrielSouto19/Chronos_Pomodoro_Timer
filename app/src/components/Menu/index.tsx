@@ -1,4 +1,4 @@
-import {HistoryIcon, HomeIcon, SettingsIcon, SunIcon,MoonIcon, Moon } from 'lucide-react'
+import {HistoryIcon, HomeIcon, SettingsIcon, SunIcon,MoonIcon,  } from 'lucide-react'
 
 import styles from './styles.module.css'
 import { useState,useEffect } from 'react'
